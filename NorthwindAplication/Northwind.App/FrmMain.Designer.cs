@@ -30,26 +30,27 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.mnuMaster = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCustomer = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSupplier = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEmploye = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCategory = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuProduct = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuRegion = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuShipper = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuTransaksi = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTransOrder = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuMonitoring = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuMonOrder = new System.Windows.Forms.ToolStripMenuItem();
             this.utilityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuRegisterUser = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChangePasword = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuManagementAcces = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLogout = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuCategory = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuProduct = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRegion = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuShipper = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuTransOrder = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuMonOrder = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.mainDock = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -65,27 +66,9 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(1342, 28);
+            this.menuStrip.Size = new System.Drawing.Size(783, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
-            // 
-            // statusStrip
-            // 
-            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 699);
-            this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip.Size = new System.Drawing.Size(1342, 25);
-            this.statusStrip.TabIndex = 2;
-            this.statusStrip.Text = "StatusStrip";
-            // 
-            // toolStripStatusLabel
-            // 
-            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
-            this.toolStripStatusLabel.Text = "Status";
             // 
             // mnuMaster
             // 
@@ -104,20 +87,44 @@
             // mnuCustomer
             // 
             this.mnuCustomer.Name = "mnuCustomer";
-            this.mnuCustomer.Size = new System.Drawing.Size(216, 26);
+            this.mnuCustomer.Size = new System.Drawing.Size(150, 26);
             this.mnuCustomer.Text = "Customer";
             // 
             // mnuSupplier
             // 
             this.mnuSupplier.Name = "mnuSupplier";
-            this.mnuSupplier.Size = new System.Drawing.Size(216, 26);
+            this.mnuSupplier.Size = new System.Drawing.Size(150, 26);
             this.mnuSupplier.Text = "Supplier";
             // 
             // mnuEmploye
             // 
             this.mnuEmploye.Name = "mnuEmploye";
-            this.mnuEmploye.Size = new System.Drawing.Size(216, 26);
+            this.mnuEmploye.Size = new System.Drawing.Size(150, 26);
             this.mnuEmploye.Text = "Employee";
+            // 
+            // mnuCategory
+            // 
+            this.mnuCategory.Name = "mnuCategory";
+            this.mnuCategory.Size = new System.Drawing.Size(150, 26);
+            this.mnuCategory.Text = "Category";
+            // 
+            // mnuProduct
+            // 
+            this.mnuProduct.Name = "mnuProduct";
+            this.mnuProduct.Size = new System.Drawing.Size(150, 26);
+            this.mnuProduct.Text = "Product";
+            // 
+            // mnuRegion
+            // 
+            this.mnuRegion.Name = "mnuRegion";
+            this.mnuRegion.Size = new System.Drawing.Size(150, 26);
+            this.mnuRegion.Text = "Region";
+            // 
+            // mnuShipper
+            // 
+            this.mnuShipper.Name = "mnuShipper";
+            this.mnuShipper.Size = new System.Drawing.Size(150, 26);
+            this.mnuShipper.Text = "Shipper";
             // 
             // mnuTransaksi
             // 
@@ -127,6 +134,12 @@
             this.mnuTransaksi.Size = new System.Drawing.Size(80, 24);
             this.mnuTransaksi.Text = "Transaksi";
             // 
+            // mnuTransOrder
+            // 
+            this.mnuTransOrder.Name = "mnuTransOrder";
+            this.mnuTransOrder.Size = new System.Drawing.Size(122, 26);
+            this.mnuTransOrder.Text = "Order";
+            // 
             // mnuMonitoring
             // 
             this.mnuMonitoring.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -134,6 +147,12 @@
             this.mnuMonitoring.Name = "mnuMonitoring";
             this.mnuMonitoring.Size = new System.Drawing.Size(95, 24);
             this.mnuMonitoring.Text = "Monitoring";
+            // 
+            // mnuMonOrder
+            // 
+            this.mnuMonOrder.Name = "mnuMonOrder";
+            this.mnuMonOrder.Size = new System.Drawing.Size(122, 26);
+            this.mnuMonOrder.Text = "Order";
             // 
             // utilityToolStripMenuItem
             // 
@@ -151,6 +170,7 @@
             this.mnuRegisterUser.Name = "mnuRegisterUser";
             this.mnuRegisterUser.Size = new System.Drawing.Size(216, 26);
             this.mnuRegisterUser.Text = "Register User";
+            this.mnuRegisterUser.Click += new System.EventHandler(this.MnuRegisterUser_Click);
             // 
             // mnuChangePasword
             // 
@@ -170,53 +190,47 @@
             this.mnuLogout.Size = new System.Drawing.Size(216, 26);
             this.mnuLogout.Text = "Log Out";
             // 
-            // mnuCategory
+            // statusStrip
             // 
-            this.mnuCategory.Name = "mnuCategory";
-            this.mnuCategory.Size = new System.Drawing.Size(216, 26);
-            this.mnuCategory.Text = "Category";
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel});
+            this.statusStrip.Location = new System.Drawing.Point(0, 355);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip.Size = new System.Drawing.Size(783, 25);
+            this.statusStrip.TabIndex = 2;
+            this.statusStrip.Text = "StatusStrip";
             // 
-            // mnuProduct
+            // toolStripStatusLabel
             // 
-            this.mnuProduct.Name = "mnuProduct";
-            this.mnuProduct.Size = new System.Drawing.Size(216, 26);
-            this.mnuProduct.Text = "Product";
+            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
+            this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
+            this.toolStripStatusLabel.Text = "Status";
             // 
-            // mnuRegion
+            // mainDock
             // 
-            this.mnuRegion.Name = "mnuRegion";
-            this.mnuRegion.Size = new System.Drawing.Size(216, 26);
-            this.mnuRegion.Text = "Region";
-            // 
-            // mnuShipper
-            // 
-            this.mnuShipper.Name = "mnuShipper";
-            this.mnuShipper.Size = new System.Drawing.Size(216, 26);
-            this.mnuShipper.Text = "Shipper";
-            // 
-            // mnuTransOrder
-            // 
-            this.mnuTransOrder.Name = "mnuTransOrder";
-            this.mnuTransOrder.Size = new System.Drawing.Size(216, 26);
-            this.mnuTransOrder.Text = "Order";
-            // 
-            // mnuMonOrder
-            // 
-            this.mnuMonOrder.Name = "mnuMonOrder";
-            this.mnuMonOrder.Size = new System.Drawing.Size(216, 26);
-            this.mnuMonOrder.Text = "Order";
+            this.mainDock.ActiveAutoHideContent = null;
+            this.mainDock.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainDock.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
+            this.mainDock.Location = new System.Drawing.Point(0, 28);
+            this.mainDock.Name = "mainDock";
+            this.mainDock.Size = new System.Drawing.Size(783, 327);
+            this.mainDock.TabIndex = 4;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1342, 724);
+            this.ClientSize = new System.Drawing.Size(783, 380);
+            this.Controls.Add(this.mainDock);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
@@ -250,6 +264,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuChangePasword;
         private System.Windows.Forms.ToolStripMenuItem mnuManagementAcces;
         private System.Windows.Forms.ToolStripMenuItem mnuLogout;
+        private WeifenLuo.WinFormsUI.Docking.DockPanel mainDock;
     }
 }
 
