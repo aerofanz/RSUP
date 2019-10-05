@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.gridListControl1 = new Syncfusion.Windows.Forms.Grid.GridListControl();
             this.cboGroup = new System.Windows.Forms.ComboBox();
             this.txtFirst = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,10 +40,12 @@
             this.txtUserID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.grLstUser = new Syncfusion.Windows.Forms.Grid.GridListControl();
             this.tableLayoutPanel3.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridListControl1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grLstUser)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel3
@@ -62,15 +62,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(841, 300);
             this.tableLayoutPanel3.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.gridListControl1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(339, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(499, 294);
-            this.panel3.TabIndex = 0;
             // 
             // panel4
             // 
@@ -89,20 +80,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(330, 294);
             this.panel4.TabIndex = 1;
-            // 
-            // gridListControl1
-            // 
-            this.gridListControl1.BackColor = System.Drawing.SystemColors.Control;
-            this.gridListControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.gridListControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridListControl1.ItemHeight = 17;
-            this.gridListControl1.Location = new System.Drawing.Point(0, 0);
-            this.gridListControl1.Name = "gridListControl1";
-            this.gridListControl1.Properties.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.gridListControl1.SelectedIndex = -1;
-            this.gridListControl1.Size = new System.Drawing.Size(499, 294);
-            this.gridListControl1.TabIndex = 0;
-            this.gridListControl1.TopIndex = 0;
             // 
             // cboGroup
             // 
@@ -185,6 +162,29 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "User Id";
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.grLstUser);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(339, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(499, 294);
+            this.panel3.TabIndex = 0;
+            // 
+            // grLstUser
+            // 
+            this.grLstUser.BackColor = System.Drawing.SystemColors.Control;
+            this.grLstUser.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.grLstUser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grLstUser.ItemHeight = 17;
+            this.grLstUser.Location = new System.Drawing.Point(0, 0);
+            this.grLstUser.Name = "grLstUser";
+            this.grLstUser.Properties.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grLstUser.SelectedIndex = -1;
+            this.grLstUser.Size = new System.Drawing.Size(499, 294);
+            this.grLstUser.TabIndex = 0;
+            this.grLstUser.TopIndex = 0;
+            // 
             // FrmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -196,10 +196,10 @@
             this.Text = "FrmRegister";
             this.Controls.SetChildIndex(this.tableLayoutPanel3, 0);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridListControl1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grLstUser)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -209,7 +209,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private Syncfusion.Windows.Forms.Grid.GridListControl gridListControl1;
+        private Syncfusion.Windows.Forms.Grid.GridListControl grLstUser;
         private System.Windows.Forms.ComboBox cboGroup;
         private System.Windows.Forms.TextBox txtFirst;
         private System.Windows.Forms.Label label3;

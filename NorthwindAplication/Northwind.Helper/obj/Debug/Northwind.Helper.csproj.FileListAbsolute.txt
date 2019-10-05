@@ -12,10 +12,10 @@ D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\bin\Debug\Syncfusion.To
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\bin\Debug\EnvDTE.dll
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\bin\Debug\stdole.dll
-D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csprojAssemblyReference.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.UI.Template.FrmEntryMaster.resources
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.GenerateResource.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csproj.CopyComplete
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.dll
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.pdb
+D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Helper\obj\Debug\Northwind.Helper.csprojAssemblyReference.cache

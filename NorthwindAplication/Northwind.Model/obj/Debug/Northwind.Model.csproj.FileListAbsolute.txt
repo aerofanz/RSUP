@@ -3,7 +3,6 @@ D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\bin\Debug\Northwind.Mode
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\bin\Debug\Dapper.Contrib.dll
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\bin\Debug\Dapper.dll
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\bin\Debug\Dapper.xml
-D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\obj\Debug\Northwind.Model.csprojAssemblyReference.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\obj\Debug\Northwind.Model.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\obj\Debug\Northwind.Model.csproj.CopyComplete
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.Model\obj\Debug\Northwind.Model.dll

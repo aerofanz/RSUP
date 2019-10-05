@@ -26,7 +26,8 @@ namespace Northwind.BLL_service
 
         public IList<User> GetAll()
         {
-            throw new NotImplementedException();
+            var user = _uow.AuthRepository.GetAll();
+            return user;
         }
 
         public bool Login(string username, string password, ref User user)
