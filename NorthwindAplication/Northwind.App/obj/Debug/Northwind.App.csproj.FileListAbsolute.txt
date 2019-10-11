@@ -18,7 +18,6 @@ D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.cs
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.FrmLogin.resources
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.Properties.Resources.resources
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.csproj.GenerateResource.cache
-D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.csproj.CoreCompileInputs.cache
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.csproj.CopyComplete
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.exe
 D:\Github\RSUP\RSUP\NorthwindAplication\Northwind.App\obj\Debug\Northwind.App.pdb

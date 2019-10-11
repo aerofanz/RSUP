@@ -35,12 +35,24 @@ namespace Northwind.Helper.UI.Template
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
-            LockButton(false, true);
+            //LockButton(false, true);
+            btnAddAksi();
+        }
+
+        protected virtual void btnAddAksi()
+        {
+            throw new NotImplementedException();
         }
 
         private void BtnEdit_Click(object sender, EventArgs e)
         {
-            LockButton(false, true);
+            //LockButton(false, true);
+            btnEditAksi();
+        }
+
+        protected virtual void btnEditAksi()
+        {
+            throw new NotImplementedException();
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
